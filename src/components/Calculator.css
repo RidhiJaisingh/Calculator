@@ -1,0 +1,38 @@
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#table,
+.key {
+  background-color: rgb(4, 4, 77);
+  color: white;
+  width: 60px;
+  height: 40px;
+}
+.key:hover {
+  background-color: rgb(61, 43, 184);
+}
+.calculator-container {
+  background-color: rgb(255, 255, 65);
+}
+.key {
+  border: none;
+  background-color: rgb(80, 60, 209);
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+input {
+  width: 250px;
+  height: 80px;
+  background-color: rgb(23, 23, 155);
+  color: white;
+}
+.input-right-aligned {
+  text-align: right;
+}
